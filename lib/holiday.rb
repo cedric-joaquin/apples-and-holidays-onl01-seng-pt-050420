@@ -1,10 +1,8 @@
 require 'pry'
 
-<<<<<<< HEAD
 # given that holiday_hash looks like this:
-=======
 #   # given that holiday_hash looks like this:
->>>>>>> f9eaff8f8068fcaa9083baff6e079954aeb858cd
+
 # holiday_hash =  {
 #     :winter => {
 #       :christmas => ["Lights", "Wreath"],
@@ -26,11 +24,8 @@ def second_supply_for_fourth_of_july(holiday_hash)
     if season == :summer
       holidays.each do |holiday, supply|
         if holiday == :fourth_of_july
-<<<<<<< HEAD
           return supply[1]
-=======
           return holiday[1]
->>>>>>> f9eaff8f8068fcaa9083baff6e079954aeb858cd
         end 
       end 
     end 
